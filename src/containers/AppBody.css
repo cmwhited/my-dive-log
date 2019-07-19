@@ -1,0 +1,29 @@
+.app-body {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 25px 15px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.body-content {
+  width: 98%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.body-content > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 1px solid #004d40;
+}
+.body-content > blockquote {
+  background-color: #e0e0e0;
+  color: #212121;
+  padding: 15px 25px;
+  border-left: 3px solid #212121;
+}
