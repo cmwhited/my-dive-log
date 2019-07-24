@@ -15,14 +15,14 @@ export type AppHeaderProps = {
 const AppHeader: React.FC<AppHeaderProps> = React.memo(({ title, description, links }) => {
   return (
     <header className="app-header">
-      <div className="app-title">
+      <section className="app-title">
         <h1>{title}</h1>
         <small>{description}</small>
-      </div>
+      </section>
       <span className="fill-space" />
-      <div className="app-links">
+      <section className="app-links">
         {links && links.map((link: NavLink) => <AppHeaderNavLink label={link.label} route={link.route} key={link.label} />)}
-      </div>
+      </section>
     </header>
   );
 });
